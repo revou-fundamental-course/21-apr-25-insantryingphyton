@@ -1,52 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Degree Converter Site - Al Insan</title>
 
-    <!-- CSS EKSTERNAL -->
-     <link rel="stylesheet" href="css\style.css"
+    <!-- EXTERNAL CSS -->
+     <link rel="stylesheet" href="css\style.css">
 </head>
-<body>
-    <header>
-        <h1>Website konversi suhu</h1>
-    </header>
-    <main>
-        <!-- introduction -->
-        <section>
 
+<body>
+    <!-- Header Content -->
+    <header>
+        <h1>Degree Converter Site</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Introduction -->
+        <section>
+            <!-- Intro -->
+            <p></p>
         </section>
 
-        <!-- Form konversi suhu -->
+        <!-- Form Konversi Suhu -->
         <form>
             <div>
-                <label for=""></label>
+                <label for="konversi-input">Celcius (&deg;C)</label>
             </div>
 
             <div>
                 <textarea id="konversi-input"></textarea>
             </div>
 
+            <!-- Form Action -->
             <div>
-
+                <button>Konversi</button>
+                <button>Reset</button>
+                <button>Reverse</button>
             </div>
-
         </form>
 
-        <!-- Hasil konversi suhu -->
+        <!-- Hasil Konversi Suhu -->
         <section>
             <div>
-                <label for="result-input">Fahrenheit</label>
+                <label for="result-input">Fahrenheit (&deg;F):</label>
+            </div>
+
+            <div>
+                <textarea id="result-input" readonly></textarea>
+            </div>
+        </section>
+
+        <!-- Penjelasan -->
+         <section>
+            <div>
+                <label for="calculate-detail">Cara Kalkulasi</label>
             </div>
 
             <div>
                 <textarea id="calculate-detail" readonly></textarea>
             </div>
+         </section>
 
-        </section>
-
-        <!-- Informasi tambahan -->
+        <!-- Informasi Tambahan -->
          <section>
             <header>
                 <h1>Cara Konversi Dari Celcius (&deg;C) ke Fahrenheit (&deg;F)</h1>
@@ -54,21 +72,30 @@
 
             <hr />
 
-            <!-- konten informasi -->
+            <!-- Konten Informasi -->
              <article>
-                <p>Suhu<span class="formula">S</span> dalam derajat Fahrenheit (&deg;F)</p>
+                <p>Suhu <span class="formula">S</span> dalam derajat Fahrenheit (&deg;F)</p>
 
                 <!-- formula -->
-                 <div clas="formula">
-                    <span class="formula">S</span><sub>(&deg;F)</sub>
+                <div class="formula">
+                    S<sub>(&deg;F)</sub> = (S<sub>(&deg;C)</sub> x 9/5) + 32
+                </div>
+
+                <div>
+                    atau
+                </div>
+                
+                <div class="formula">
+                    S<sub>(&deg;C)</sub> = (S<sub>(&deg;F)</sub> x 1,8) + 32
                 </div>
              </article>
          </section>
-
     </main>
+
+    <!-- Footer Content -->
     <footer>
-        <p>&copy; 2025 Al Insan. All rights reserved</p>
+        <p>&copy; 2025 Al Insan. All rights reserved.</p>
     </footer>
-    
 </body>
+
 </html>
