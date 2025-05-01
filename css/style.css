@@ -1,39 +1,48 @@
+/* Website Appearance */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 32px;
     text-align: center;
 }
 
+/* All p & div */
 p, div{
     text-align: justify;
 }
 
+/* All button */
 button{
     border: none;
     padding: 8px;
     border-radius: 8px;
 }
 
+/* Button 1 */
 .bg-1{
     background-color: antiquewhite;
 }
 
+/* Button 2 */
 .bg-2{
     background-color: lightblue;
 }
 
+/* Button 3 */
 .bg-3{
     background-color: lightsalmon;
 }
 
+/* Items */
 .section-item{
     margin-bottom: 8px;
 }
 
+/* Contents */
 .section-content{
     margin: 32px;
 }
 
+/* Text Area */
 textarea{
     width: 100%;
     height: 150px;
@@ -46,12 +55,14 @@ textarea{
     resize: none;
 }
 
+/* Formula */
 .formula{
     font-style: italic;
     font-size: xx-large;
     
 }
 
+/* Desktop Appearance */
 @media only screen and (min-width: 480px) {
     #form-action {
         display: flex;
@@ -59,6 +70,7 @@ textarea{
     }
 }
 
+/* Mobile Appearance */
 @media only screen and (max-width: 480px) {
     #form-action {
         display: flex;
