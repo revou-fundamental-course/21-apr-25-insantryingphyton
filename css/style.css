@@ -18,17 +18,17 @@ button{
 }
 
 /* Button 1 */
-.bg-1{
+.button-1{
     background-color: antiquewhite;
 }
 
 /* Button 2 */
-.bg-2{
+.button-2{
     background-color: lightblue;
 }
 
 /* Button 3 */
-.bg-3{
+.button-3{
     background-color: lightsalmon;
 }
 
